@@ -34,6 +34,6 @@ class DataCollector:
 
 if __name__ == '__main__':
     data_collector = DataCollector(BINANCE_SECRET_KEY, BINANCE_API_KEY)
-    data_collector.get_historical_tickers('1h', '1 Feb, 2022', '1 Mar, 2022')
-    data_collector.get_historical_tickers('1d', '1 Feb, 2022', '1 Mar, 2022')
-    data_collector.get_historical_tickers('1w', '1 Feb, 2022', '1 Mar, 2022')
+    data_collector.get_historical_tickers('1h', '20 Mar, 2022', '20 Apr, 2022')
+    data_collector.get_historical_tickers('1d', '20 Mar, 2022', '20 Apr, 2022')
+    data_collector.get_historical_tickers('1w', '20 Mar, 2022', '20 Apr, 2022')
